@@ -1,0 +1,72 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Vanilla Coding - Ponyo</title>
+</head>
+
+<body>
+  <!-- HTML 마크업 시작 -->
+
+  <div class="wrapper">
+    <div class="calendar">
+      <div class="left-content">
+      </div>
+      <div class="right-content">
+        <table>
+          <thead class="month-header">
+            <tr>
+                <th colspan="2" class="th-merge arrow float-left prev-arrow">
+                    <span><</span>
+                </th>
+                <th colspan="3" class="th-merge center-merge"><span class="month-of-date"></span></th>
+                <th colspan="2" class="th-merge arrow float-right next-arrow">
+                  <span>></span>
+                </th>
+            </tr>
+            <tr>
+              <th class="day-of-week">S</th>
+              <th class="day-of-week">M</th>
+              <th class="day-of-week">T</th>
+              <th class="day-of-week">W</th>
+              <th class="day-of-week">T</th>
+              <th class="day-of-week">F</th>
+              <th class="day-of-week">S</th>
+            </tr>
+          </thead>
+          <tbody class="month-contents">
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="todoapp">
+      <header class="header">
+        <input type="text" class="new-todo" placeholder="What needs to be done?">
+      </header>
+      <section class="main">
+        <ul class="todo-list">          
+        </ul>
+      </section>
+      <footer class="footer">
+        <span class="todo-count">
+          <strong class="todo-count-inner">0</strong>
+          items left
+        </span>
+        <ul class="filters">
+          <li>
+            <a href="#">All</a>
+          </li>
+          <li>
+            <a href="#/active">Active</a>
+          </li>
+          <li>
+            <a href="#/completed">Completed</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+  </div>
+  <!-- HTML 마크업 끝 -->
+</body>
+
+</html>
